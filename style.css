@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+input{
+    width: 280px;
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#form-a, #form-b, #form-op{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btns, #btns-b, #btns-op{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#enviar, #consultar-b, #entrar{
+    color: white;
+    background-color: black;
+    height: 35px;
+    width: 285px;
+    border: none;
+}
+
+#consultar, #enviar-prop, #forgotPass{
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
+    height: 35px;
+    width: 285px;
+    border: none;
+}
+
+#enviar:hover{
+    cursor: pointer;
+    background-color: rgba(68, 68, 68, 80%);
+}
+
+#consultar:hover{
+    cursor: pointer;
+    color: rgba(68, 68, 68, 80%);
+}
+
+#consultar-b:hover{
+    cursor: pointer;
+    background-color: rgba(68, 68, 68, 80%);
+}
+
+#enviar-prop:hover{
+    cursor: pointer;
+    color: rgba(68, 68, 68, 80%);
+}
+
+#entrar:hover{
+    cursor: pointer;
+    background-color: rgba(68, 68, 68, 80%);
+}
+
+#forgotPass:hover{
+    cursor: pointer;
+    color: rgba(68, 68, 68, 80%);
+}
